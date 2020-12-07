@@ -7,7 +7,7 @@ CREATE TABLE songs (
 
 CREATE TABLE guitars (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  title TEXT NOT NULL,
+  brand TEXT NOT NULL,
   description TEXT,
   url TEXT NOT NULL
   
@@ -15,7 +15,7 @@ CREATE TABLE guitars (
 
 CREATE TABLE dragons (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  title TEXT NOT NULL,
+  breed TEXT NOT NULL,
   description TEXT,
   url TEXT NOT NULL
   
@@ -33,6 +33,7 @@ CREATE TABLE books (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   title TEXT NOT NULL,
   description TEXT,
+  author TEXT,
   url TEXT NOT NULL
   
 );
