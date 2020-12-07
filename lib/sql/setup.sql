@@ -5,7 +5,7 @@ CREATE TABLE songs (
   url TEXT NOT NULL
 );
 
-CREATE TABLE toys (
+CREATE TABLE guitars (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   title TEXT NOT NULL,
   description TEXT,
