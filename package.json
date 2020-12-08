@@ -29,5 +29,16 @@
     "express": "^4.17.1",
     "pg": "^8.5.1",
     "supertest": "^6.0.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSakultarawattn/lab05-postgressql1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RSakultarawattn/lab05-postgressql1/issues"
+  },
+  "homepage": "https://github.com/RSakultarawattn/lab05-postgressql1#readme"
 }
